@@ -1,0 +1,15 @@
+apiVersion: 1
+
+datasources:
+  - name: gdev-testdata
+    isDefault: true
+    type: testdata
+# the rest is added
+  - name: observability-metrics
+    type: prometheus
+    url: https://observability-promproxy.prod.crto.in/select/1:1/prometheus
+    uid: observability-metrics
+  - name: meta-metrics
+    type: prometheus
+    url: https://observability-promproxy.prod.crto.in/select/1:2/prometheus
+    uid: meta-metrics
