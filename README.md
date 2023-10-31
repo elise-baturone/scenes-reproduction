@@ -2,7 +2,8 @@
 To share a reproduction of the issue I encounter in Grafana scenes
 
 
-This is a repo with just the modified "pakages/scenes-app". I ran it by replacing "pakages/scenes-app" in the scenes repo to mine then runing the scripts as explained in the grafana scenes readme.
+This is a repo with just the modified "pakages/scenes-app". I ran it by replacing "pakages/scenes-app" in the scenes repo into my own modified one. I then ran the scripts as explained in the grafana scenes readme.
+
 I have made sure to have an "//added" comment on every single line I have changed from the original demo but here is a summary: 
 
 In the "provisioning/datasources/default.yaml" file, I have added the actual datasources I am using in the app I'm developping (my company said yes).
